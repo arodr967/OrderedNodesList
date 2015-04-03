@@ -1,6 +1,6 @@
 /*
 File name: OrderedList.java
-
+A generic ordered list implemented by Nodes.
  */
 package orderednodestester;
 
