@@ -8,7 +8,8 @@ package orderednodestester;
 public class OrderedList<E> 
 {
  //Instance Variables:
-    
+        private Node head; //the first thing on the list (head)
+                          //node automatically already points to null
     
     /**
      * Constructor.
