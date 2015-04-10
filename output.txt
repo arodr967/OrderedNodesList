@@ -1,0 +1,87 @@
+Welcome to the Generic Ordered List of Nodes!
+
+Inserting 5...
+Updated list:  5 
+
+
+Inserting 20...
+Updated list:  5 20 
+
+
+Inserting 12...
+Updated list:  5 12 20 
+
+
+Inserting 17...
+Updated list:  5 12 17 20 
+
+
+Deleting 12...
+Updated list:  5 17 20 
+
+
+Inserting 37...
+Updated list:  5 17 20 37 
+
+
+Deleting 99...
+99 is not on the list!
+Updated list:  5 17 20 37 
+
+
+Inserting 73...
+Updated list:  5 17 20 37 73 
+
+
+Deleting 5...
+Updated list:  17 20 37 73 
+
+
+Deleting 73...
+Updated list:  17 20 37 
+
+
+Inserting 44...
+Updated list:  17 20 37 44 
+
+
+Initiating REVERSE1 instruction...
+Updated list:  44 37 20 17 
+
+
+Inserting 99...
+Updated list:  99 44 37 20 17 
+
+
+Inserting 23...
+Updated list:  99 44 37 23 20 17 
+
+
+Inserting 11...
+Updated list:  99 44 37 23 20 17 11 
+
+
+Deleting 99...
+Updated list:  44 37 23 20 17 11 
+
+
+Deleting 44...
+Updated list:  37 23 20 17 11 
+
+
+Deleting 11...
+Updated list:  37 23 20 17 
+
+
+Initiating REVERSE2 instruction...
+Updated list:  17 20 23 37 
+
+
+Clearing the list...
+The list has been cleared.
+
+Initiating REVERSE1 instruction...
+The list is empty! 
+
+Deleting 37...
+The list is empty!
