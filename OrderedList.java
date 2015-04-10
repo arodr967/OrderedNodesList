@@ -3,8 +3,7 @@ File name: OrderedList.java
 A generic ordered list implemented by Nodes.
  */
 package orderednodestester;
-
-
+//***********PROPERTY OF ALICIA RODRIGUEZ***********
 public class OrderedList<E extends Comparable<E>> 
 {
  //Instance Variables:
@@ -20,7 +19,7 @@ public class OrderedList<E extends Comparable<E>>
         head = null;       
         ascending = true;
     }
-    
+    //***********PROPERTY OF ALICIA RODRIGUEZ***********
     //*******UTILITY METHODS*******
     
     /**
@@ -210,7 +209,7 @@ public class OrderedList<E extends Comparable<E>>
         //it is assumed that both objects are of the same type
         return firstObject.compareTo(secondObject);
     }
-    
+    //***********PROPERTY OF ALICIA RODRIGUEZ***********
     //*******CONCRETE METHODS*******
         
     /**
@@ -365,7 +364,7 @@ public class OrderedList<E extends Comparable<E>>
         
         return update + "\n";
     }
-    
+    //***********PROPERTY OF ALICIA RODRIGUEZ***********
     //*******inner class of Node*******
     class Node
     {    
@@ -381,3 +380,4 @@ public class OrderedList<E extends Comparable<E>>
       
     }//end of Nodes class definition
 }//end of OrderedList class definition
+//***********PROPERTY OF ALICIA RODRIGUEZ***********
