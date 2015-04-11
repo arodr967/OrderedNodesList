@@ -33,7 +33,7 @@ public class OrderedList<E extends Comparable<E>>
         input.next = prevNode.next;
         prevNode.next = input;
     }
-    
+    //***********PROPERTY OF ALICIA RODRIGUEZ***********
     /**
      * Insert the node as the first node on the list
      * 
@@ -44,7 +44,7 @@ public class OrderedList<E extends Comparable<E>>
         input.next = head;  //input is pointing to whatever head is
         head = input;       //head is point to input to make it the first
     }
-    
+    //***********PROPERTY OF ALICIA RODRIGUEZ***********
     /**
      * Insert a new node with E x into its proper place on the list.
      * List is in descending order, from largest to smallest.
@@ -67,7 +67,7 @@ public class OrderedList<E extends Comparable<E>>
         {
             insertFirst(input);    
         } //3 & 4...
-        else
+        else //***********PROPERTY OF ALICIA RODRIGUEZ***********
         {   //node goes inbetween 2 other nodes on list
             while(temp.next != null &&
                 compare(temp.next.info, input.info) > 0)
@@ -94,7 +94,7 @@ public class OrderedList<E extends Comparable<E>>
         
         Node input = new Node(info);
         Node temp = head;
-        
+        //***********PROPERTY OF ALICIA RODRIGUEZ***********
         //1...
         if(isEmpty())
         {
@@ -116,7 +116,7 @@ public class OrderedList<E extends Comparable<E>>
             insertAfter(temp, input);
         }
     }
-    
+    //***********PROPERTY OF ALICIA RODRIGUEZ***********
     /**
      * Precondition: The prevNode cannot be the last node on the list
      * Deletes the node that comes after a previous one
@@ -139,7 +139,7 @@ public class OrderedList<E extends Comparable<E>>
     private void deleteFirst(Node toDelete)
     {
         head = toDelete.next;
-    }
+    } //***********PROPERTY OF ALICIA RODRIGUEZ***********
     
     /**
      * Delete a node from the list but save it's info
@@ -160,7 +160,7 @@ public class OrderedList<E extends Comparable<E>>
     
     /**
      * Gets the last node of the list
-     * 
+     * //***********PROPERTY OF ALICIA RODRIGUEZ***********
      * @return a pointer to the last node of the list
      */
     private Node lastNode()
@@ -185,7 +185,7 @@ public class OrderedList<E extends Comparable<E>>
      * @return a pointer to the first node of the list
      */
     private Node firstNode()
-    {
+    {//***********PROPERTY OF ALICIA RODRIGUEZ***********
         if(isEmpty())
         {
             System.out.println("The list is empty!");
@@ -221,7 +221,7 @@ public class OrderedList<E extends Comparable<E>>
     {
         return head == null;
     }
-    
+    //***********PROPERTY OF ALICIA RODRIGUEZ***********
     /**
      * Get if the list is ascending or not
      * 
@@ -245,7 +245,7 @@ public class OrderedList<E extends Comparable<E>>
             insertDES(info);       
     }
     
-    
+    //***********PROPERTY OF ALICIA RODRIGUEZ***********
     /**
      * Remove the node that contains x from the list.
      * 
@@ -275,7 +275,7 @@ public class OrderedList<E extends Comparable<E>>
 
          Node temp = head;  //another pointer that will tell me when
                             //its behind the node i want to delete
-        
+        //***********PROPERTY OF ALICIA RODRIGUEZ***********
         
          while(temp.next != toDelete)
          {
@@ -293,7 +293,7 @@ public class OrderedList<E extends Comparable<E>>
     public void clear()
     {
         head = null;
-    }
+    }//***********PROPERTY OF ALICIA RODRIGUEZ***********
     
     /**
      * Reverse the elements of the list. When done the list will be in 
@@ -309,7 +309,7 @@ public class OrderedList<E extends Comparable<E>>
         Node lastNode = lastNode(); //create pointer to the last node
        
         do
-        {                                
+        {//***********PROPERTY OF ALICIA RODRIGUEZ***********
             //create a new node if the info of the one we want to delete 
             Node save = saveAndDelete(toDelete);                          
             insertAfter(lastNode, save);    //insert move after the last node
@@ -334,7 +334,7 @@ public class OrderedList<E extends Comparable<E>>
         Node firstNode = firstNode();
          
         while(firstNode.next != null)
-        {
+        {//***********PROPERTY OF ALICIA RODRIGUEZ***********
             toDelete = firstNode.next;
             
             Node save = saveAndDelete(toDelete);
@@ -373,7 +373,7 @@ public class OrderedList<E extends Comparable<E>>
         Node next;      //a reference to another node
     
         Node(E x)
-        {
+        {//***********PROPERTY OF ALICIA RODRIGUEZ***********
         info = x;
         next = null;
         }   
